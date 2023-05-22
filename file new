@@ -1,0 +1,9 @@
+function calculate_average($arr) {
+    $sum = array_sum($arr);
+    $count = count($arr);
+    return $sum / $count;
+}
+
+$numbers = [1, 2, 3, 4, 5];
+$average = calculate_average($numbers);
+echo "Average: $average";
